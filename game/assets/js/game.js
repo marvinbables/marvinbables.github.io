@@ -3,17 +3,13 @@ window.onload = function() {
 
         function preload() {
 
-            game.load.image('ground', 'assets/platform.png');
-            game.load.image('star', 'assets/star.png');
-            game.load.spritesheet('dude', 'assets/dude.png', 32, 48);
-
-            game.load.image('background', 'assets/background.png');
-            game.load.image('player', 'assets/player.png');
-            game.load.image('gift', 'assets/gift.png');
-            game.load.image('gift-icon', 'assets/gift-icon.png');
-            game.load.image('grinch', 'assets/grinch.png');
-
-            game.load.image('gameover', 'assets/gameover.png');
+            game.load.image('ground', 'assets/img/platform.png');
+            game.load.image('background', 'assets/img/background.png');
+            game.load.image('player', 'assets/img/player.png');
+            game.load.image('gift', 'assets/img/gift.png');
+            game.load.image('gift-icon', 'assets/img/gift-icon.png');
+            game.load.image('grinch', 'assets/img/grinch.png');
+            game.load.image('gameover', 'assets/img/gameover.png');
             
         }
 
